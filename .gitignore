@@ -1,0 +1,13 @@
+Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+# **/.terraform/providers/
+
+# tf variable files, may include sensitive data
+*.tfvars
+
+# Ignore Terraform provider files
+**/.terraform/
+
+Terraform/
+terraform_project/
